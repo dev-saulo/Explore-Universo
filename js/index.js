@@ -2,7 +2,11 @@ import { Router } from './router.js';
 import { Backgrounds } from './event.js';
 import { bgHome, bgUniverse, bgExploration } from './elements.js'
 
-const backgrounds = Backgrounds( { bgHome, bgUniverse, bgExploration });
+const backgrounds = Backgrounds( { 
+    bgHome, 
+    bgUniverse, 
+    bgExploration 
+});
 
 if(bgHome) {
     bgHome.addEventListener("click", function() {
@@ -23,9 +27,9 @@ if(bgExploration) {
 }
 
 const router = new Router();
-router.add("/", "./index.html");
-router.add("/", "../pages/universo.html");
-router.add("/", "../pages/exploracao.html");
+router.add("./", "./home.html");
+router.add("./universo", "./pages/universo.html");
+router.add("./exploracao", "./pages/exploracao.html");
 
 router.handle();
 

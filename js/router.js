@@ -11,13 +11,15 @@ export class Router {
         console.log(event);
         window.history.pushState({}, "", href)
 
-        this.handle;
+        this.handle();
     }
 
     handle() {
         const { pathname } = window.location;
         const route = this.routes[pathname] || this.routes["/"];
 
-        fetch(route).then((data) => data.text()).then((html) => (document.querySelector("#app").innerHTML = html))
+        fetch(route)
+        .then((data) => data.text())
+        .then((html) => (document.querySelector("#app").innerHTML = html));
     }
 }
