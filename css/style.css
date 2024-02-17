@@ -1,27 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body, html{
     height: 100%;
     font-family: "Roboto", sans-serif;
-
 }
 
 .home {
-    background: url('./assets/bgHome.png') no-repeat center fixed;
+    background: url('../assets/bgHome.png') no-repeat center fixed;
     background-size: cover;
 }
 
 .universe {
-    background: url('/assets/bgUniverse.png') no-repeat center fixed;
+    background: url('../assets/bgUniverse.png') no-repeat center fixed;
     background-size: cover;
 }
 
 .exploration {
-    background: url('/assets/bgExploration.png') no-repeat center fixed;
+    background: url('../assets/bgExploration.png') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -38,8 +31,13 @@ ul li {
 }
 
 ul li a {
-    color: #FFF;
+    color: #C4C4CC;
     text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FFFFFF;
+    transition: 0.51s ease-in-out;
 }
 
 p {
