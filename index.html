@@ -14,22 +14,18 @@
     <title>SPA Universe</title>
 </head>
 <body class="home">
+    <head>
         <ul>
             <li>
                 <img src="./assets/galaxy.svg" alt="Imagem da via lactea">
-                <a id="linkHome" onclick="route('/')" href="./index.html">Home</a>
+                <a id="linkHome" onclick="route('/home')" href="./pages/home.html">Home</a>
                 <a id="linkUniverso" onclick="route('/universo')" href="./pages/universo.html">O Universo</a>
                 <a id="linkExploracao" onclick="route('/exploracao')" href="./pages/exploracao.html">Exploração</a>
             </li>
-        </ul>
-        <main>
-            <div class="texto">
-                <p>Explore o universo</p>
-                <button>QUERO SABER MAIS</button>
-            </div>
-        </main>
-        <div id="app"></div>
+        </ul> 
+    </head>
+    <div id="app"></div>
         
-        <script src="./js/index.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    padding: 0 32px 0 70px;
+}
+
+ul li {
+    display: flex;
+    padding: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    gap: 32px;
+}
+
+ul li a {
+    color: #C4C4CC;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FFFFFF;
+    transition: 0.51s ease-in-out;
+}
+
+h1 {
+    color: #e1e1e6;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+  
+  p {
+    color: #d9d9da;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 648px;
+}
