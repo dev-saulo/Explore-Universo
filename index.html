@@ -17,9 +17,9 @@
         <ul>
             <li>
                 <img src="./assets/galaxy.svg" alt="Imagem da via lactea">
-                <a href="./index.html">Home</a>
-                <a href="./pages/universo.html">O Universo</a>
-                <a href="./pages/exploracao.html">Exploração</a>
+                <a id="linkHome" onclick="route('/')" href="./index.html">Home</a>
+                <a id="linkUniverso" onclick="route('/universo')" href="./pages/universo.html">O Universo</a>
+                <a id="linkExploracao" onclick="route('/exploracao')" href="./pages/exploracao.html">Exploração</a>
             </li>
         </ul>
         <main>
@@ -28,6 +28,7 @@
                 <button>QUERO SABER MAIS</button>
             </div>
         </main>
+        <div id="app"></div>
         
         <script src="./js/index.js" type="module"></script>
 </body>
