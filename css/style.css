@@ -48,7 +48,7 @@ h1 {
     line-height: 125%; /* 60px */
 }
 
-button {
+#btn {
     color: #FFF;
     text-align: center;
     font-size: 14px;
@@ -65,7 +65,7 @@ button {
     color: #FFF;
 }
 
-button:hover {
+#btn:hover {
     background: #FFF;
     border: 2px solid #FFF;
     color: #02799D;
