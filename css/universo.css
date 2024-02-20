@@ -25,15 +25,13 @@ ul li a:hover {
 }
 
 h1 {
-    color: #e1e1e6;
-    font-weight: 700;
-    font-size: 48px;
-    margin-bottom: 16px;
+    margin-top: 63px;
 }
   
-  p {
-    color: #d9d9da;
+main {
+    color: #E1E1E6;
     font-weight: 400;
     font-size: 18px;
     max-width: 648px;
+    margin-left: 150px;
 }

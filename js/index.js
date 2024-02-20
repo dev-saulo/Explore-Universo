@@ -27,11 +27,11 @@ if(bgExploration) {
 }
 
 const router = new Router();
-router.add("./", "./home.html");
-router.add("./universo", "./pages/universo.html");
-router.add("./exploracao", "./pages/exploracao.html");
+router.add("/", "/pages/home.html");
+router.add("/universo", "/pages/universo.html");
+router.add("/exploracao", "/pages/exploracao.html");
 
 router.handle();
 
 window.onpopstate = () => router.handle();
-window.route = (href) => router.route(href);
+window.route = (href) => router.route();
