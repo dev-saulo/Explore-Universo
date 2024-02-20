@@ -1,4 +1,13 @@
 <main class="texto">
     <h1>Explore o universo</h1>
-    <button id="btn" onclick="route('/universo')">quero saber mais</button>
+    <a id="btn" href="/universo" onclick="route()">Quero saber mais</a>
+
+    <script type="module">
+        const btn = document.getElementById("btn")
+    
+        btn.addEventListener("click", () => {
+            document.body.classList.remove("home")
+          document.body.classList.add('universe')
+        })
+      </script>
 </main>
