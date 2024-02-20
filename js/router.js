@@ -9,7 +9,7 @@ export class Router {
         event = event || window.event;
         event.preventDefault();
         console.log(event);
-        window.history.pushState({}, "", href)
+        window.history.pushState({}, "",  event.target.href)
 
         this.handle();
     }
