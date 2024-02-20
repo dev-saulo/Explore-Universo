@@ -31,6 +31,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br/>
 
-# 💻 Você pode acessar [aqui](https://universoexplorado.vercel.app/home)
+# 💻 Você pode acessar [aqui](https://universoexplorado.vercel.app/)
 
 <p align="center"> feito com ❤ por <a href="https://www.instagram.com/saulochristian_/" target="_blank">@saulochristian</a></p>
