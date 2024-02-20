@@ -1,16 +1,16 @@
-<h1 align="center"> 👩‍🚀 SPA | Explore o Universo </h1>
+<h1 align="center"> 👩‍🚀 Explore o Universo 🚀 </h1>
 
-<p align="center"><img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=RED&style=for-the-badge"/></p>
+<p align="center"><img src="https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge"/></p>
 
-<!-- <p align="center">Este projeto foi desenvolvido no Stage 06 do Explorer, o primeiro desafio foi criar um SPA com rotas no JavaScript!</p> -->
+<p align="center">Este projeto foi desenvolvido no Stage 06 do Explorer, implementando um SPA com rotas no JavaScript!</p>
 
-<!-- <p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
-</p> -->
+<p align="center">
+  <img alt="imagem do projeto Explore o Universo" src=".github/explore-universo.png" width="100%">
+</p>
 
 <br/>
 
-# 🔨 O que será abordado nesse desafio:
+# 🔨 O que foi abordado nesse desafio:
 
 - Conceitos de SPA;
 - Mapeamento de rotas;
@@ -31,6 +31,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br/>
 
-<!-- # 💻 Você pode acessar [aqui](https://spa-universe-livid.vercel.app/) -->
+# 💻 Você pode acessar [aqui](https://universoexplorado.vercel.app/home)
 
-<!-- <p align="center"> feito com ❤ por <a href="https://www.instagram.com/palomarodrigsb" target="_blank">@palomarodrigsb</a></p> -->
+<p align="center"> feito com ❤ por <a href="https://www.instagram.com/saulochristian_/" target="_blank">@saulochristian</a></p>
